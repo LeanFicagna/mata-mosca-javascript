@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <script src="jogo.js"></script>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body style="background-image: url('imagens/bg.jpg'); background-size: cover;" onresize="ajusteImage()">
+        <div class="painel">
+            <div class="vidas">
+                <img id="v1" src="imagens/coracao_cheio.png">
+                <img id="v2" src="imagens/coracao_cheio.png">
+                <img id="v3" src="imagens/coracao_cheio.png">
+            </div>
+            <div class="time">
+                Tempo restante = <span id="cronometro">10</span>
+            </div>
+        </div>
+
+        <script>
+            setInterval( function(){ positionRandom() }, window.location.search.replace('?', '') == 'normal'? 2300: 1500 )
+        </script>
+    </body>
+</html>

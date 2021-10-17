@@ -1,0 +1,34 @@
+html {
+    cursor: url('imagens/mata_mosca.png') 30 30, auto;
+}
+
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+
+.painel {
+    width: 220px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    float: left;
+}
+
+.time {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
